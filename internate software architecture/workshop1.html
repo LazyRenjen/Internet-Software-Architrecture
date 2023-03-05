@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question No 1</title>
+    <style>
+        body{
+            margin-left: 40%;
+            width: 25%;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(96, 179, 179);">
+    <h1 align="center">Survey Form</h1>
+    <div class="form" style="background-color: azure; padding: 5px;">
+ 
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="Enter your Name">
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Enter your Email">
+        <br>
+        <label for="age">Age</label><br>
+        <input type="number" id="age" placeholder="Enter your Age">
+        <br>
+
+        <p>Which option best describe you?</p>
+        <select id="occupation">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="tutor">Tutor</option>
+        </select>
+        <br>
+
+        <p>Would you recommend Herald collage Kathmandu to a friend?</p>
+        <input type="radio" id="yes" name="recommendation" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="recommendation" value="no">
+        <label for="no">No</label><br>
+        <input type="radio" id="maybe" name="recommendation" value="maybe">
+        <label for="maybe">Maybe</label><br>
+        <br>
+
+        <p>Languages and Frameworks known (check all that apply)</p>
+		<input type="checkbox" id="language-c" name="languages[]" value="C">
+        <label for="language-c">C</label><br>
+		<input type="checkbox" id="language-cpp" name="languages[]" value="C++">
+        <label for="language-cpp">C++</label><br>
+        <input type="checkbox" id="language-csharp" name="languages[]" value="C#">
+        <label for="language-csharp">C#</label><br>
+        <input type="checkbox" id="language-java" name="languages[]" value="Java">
+        <label for="language-java">Java</label><br>
+        <input type="checkbox" id="language-python" name="languages[]" value="Python">
+        <label for="language-python">Python</label><br>
+        <input type="checkbox" id="language-javascript" name="languages[]" value="JavaScript">
+        <label for="language-javascript">JavaScript</label><br>
+        <input type="checkbox" id="language-react" name="languages[]" value="React">
+        <label for="language-react">React</label><br>
+        <input type="checkbox" id="language-django" name="languages[]" value="Django">
+        <label for="language-django">Django</label><br>
+
+        <p>Any comments or suggestions?</p>
+        <label for="comments">
+        <textarea id="comments" name="comments" rows="4"></textarea>
+        
+        <br>
+        <input type="submit" value="Submit">
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+header
+{
+    background-color: gray;
+    width: 100%;
+    padding-bottom: 10px;
+}
+nav ul{
+    padding-top: 5px;
+    font-size: larger;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 5px;
+}
+nav ul li a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+img{
+    height: 40px;
+    width: 150px;
+    padding-right: 10px;
+    margin-top: 3px;
+    float: right;
+}
+
+#Home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/204b24e21607321640452.png);
+    background-size: 95vh 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#About{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.right-side{
+    width: 50%;
+    background-image: url(/foodmandu.png);
+    background-repeat: no-repeat;
+    background-size: 90vh;
+}
+.left-side{
+    width: 50%;
+    color: rgb(199, 0, 0);
+    font-size: 25px;
+    padding-right: 20px;
+    margin-top: 15vh;
+}
+
+#Service{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.Service-1{
+    width: 50%;
+    background-image: url(/sev1.jpg);
+    background-repeat: no-repeat;
+    background-size: 145vh ;
+    background-position: right;
+    cursor: pointer;
+}
+.Service-2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 50%;
+    background-image: url(/top_seamless_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 145vh ;
+    cursor: pointer;
+}
+.top{
+    height: 50%;
+    font-size: 20px;
+    font-weight: 510;
+    color: rgb(199, 0, 0);
+    padding: 15px;
+}
+
+.Service-2 img{
+    padding: 10px;
+    height: 25vh;
+    width: 50%;
+
+}
+.Service-2 img:hover
+{
+    transform: scale(0.90);
+    z-index: 2;
+}
+#Contact {
+    background-color: #ffffff;
+    color: rgb(219, 26, 26);
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  } 
+  #Contact h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .form {
+    padding: 5%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #cdd2bb;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    height: 4vh;
+    width: 20%;
+    border: 1;
+    border-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .More {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+  }
+  
+  .More h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .More ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
